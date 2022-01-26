@@ -1,0 +1,51 @@
+.wrapper {
+  width: 800px;
+  margin: 0 auto;
+}
+.gallary img {
+  width: 200px;
+  height: auto;
+  margin-left: 50px;
+}
+.gallary img:first-child {
+  height: auto;
+  margin: 0 10%;
+  width: 600px;
+}
+.gallary img:last-child:hover {
+  cursor: pointer;
+  width: 240px;
+  height: auto;
+}
+.clear {
+  clear: both;
+}
+.buttons {
+  margin: 10px 25%;
+}
+button {
+  border-radius: 5px;
+  border: 1px solid gray;
+  margin: 10px;
+  height: 30px;
+  width: 100px;
+  box-shadow: 0px 5px 10px -5px black;
+}
+button:active {
+  box-shadow: none;
+}
+.sepia {
+  filter: sepia(60%);
+}
+.invert {
+  filter: invert(60%);
+}
+.blur {
+  filter: blur(60%);
+}
+.saturate {
+  filter: saturate(60%);
+}
+.oriigin {
+  filter: none;
+}

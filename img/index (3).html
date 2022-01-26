@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script>
+        function change_src(photo){
+            document.getElementById("main_photo").src=photo;
+        }
+    </script>
+</head>
+<body>
+    <div class="main">
+        <img id="main_photo" src="img/dave-hoefler-PDfe7H5GJR0-unsplash.jpg" alt="forest_in_smoke">
+        <div class="gallery">
+            <img onclick="change_src(this.src)" src="img/john-towner-3Kv48NS4WUU-unsplash.jpg" alt="">
+            <img onclick="change_src(this.src)" src="img/juan-davila-P8PlK2nGwqA-unsplash.jpg" alt="">
+            <img onclick="change_src(this.src)" src="img/veeterzy-sMQiL_2v4vs-unsplash.jpg" alt="">
+            <img onclick="change_src(this.src)" src="img/dave-hoefler-PDfe7H5GJR0-unsplash.jpg" alt="">
+        </div>
+        <div class="clear"></div>
+        <div class="buttons">
+            <button>sepia</button>
+            <button>invert</button>
+            <button>blur</button>
+            <button>saturate</button>
+            <button>original</button>
+        </div>
+    </div>
+</body>
+</html>

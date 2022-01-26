@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/js.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <div class="gallary">
+            <img id="main_photo" src="img/tree.jpg" alt="Tree">
+            <img onclick="change_src(this.src)" src="img/tree.jpg" alt="Tree">
+            <img onclick="change_src(this.src)" src="img/secondtree.jpg" alt="Tree">
+            <img onclick="change_src(this.src)" src="img/thirdetree.jpg" alt="Tree">
+            <img onclick="change_src(this.src)" src="img/forest.jpg" alt="Tree">
+        </div>
+        <div class="clear"></div>
+        <div class="buttons">
+            <button onclick="change_filter('sepia')">Sepia</button>
+            <button onclick="change_filter('invert')">Invert</button>
+            <button onclick="change_filter('blur')">Blur</button>
+            <button onclick="change_filter('saturate')">Saturate</button>
+            <button onclick="change_filter('origin')">Original</button>
+        </div>
+    </div>
+</body>
+
+</html>
